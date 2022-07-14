@@ -1,0 +1,29 @@
+{
+  "name": "link_milennials",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/swiper": "^5.4.3",
+    "next": "12",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-modal": "^3.14.3",
+    "swiper": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.7",
+    "@types/react": "^17.0.15",
+    "@types/react-dom": "^17.0.9",
+    "eslint": "7.31.0",
+    "eslint-config-next": "11.0.1",
+    "sass": "^1.36.0",
+    "typescript": "^4.3.5"
+  }
+}

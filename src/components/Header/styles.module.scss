@@ -1,0 +1,74 @@
+.container {
+  width: 100%;
+
+  .content {
+    width: 100%;
+    height: 12rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 2rem;
+
+    a {
+      background-image: url("../../../public/profile.png");
+      background-position: center;
+      background-size: cover;
+
+      width: 8rem;
+      height: 8rem;
+
+      border-radius: 4rem;
+      border: 3px solid #6e9b91;
+
+      display: flex;
+    }
+
+    div:last-child {
+      margin-left: 2rem;
+
+      display: flex;
+      flex-direction: column;
+
+      > span {
+        font-size: 0.8rem;
+        margin-left: 1.9rem;
+      }
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      color: var(--gray);
+      font-weight: 700;
+      line-height: 2.1rem;
+
+      > span {
+        color: #6e9b91;
+      }
+    }
+
+    p {
+      color: rgba($color: #4a4a4a, $alpha: 0.9);
+      font-weight: 700;
+      margin-top: 0.8rem;
+
+      span {
+        color: #6e9b91;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.divider {
+  height: 1px;
+  margin: 1rem auto 1.5rem auto;
+  max-width: 600px;
+  background: linear-gradient(
+    90deg,
+    #6e9b91 -1.53%,
+    rgba(196, 196, 196, 0) 104.35%
+  );
+  opacity: 0.8;
+}
